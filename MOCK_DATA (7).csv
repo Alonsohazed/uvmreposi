@@ -1,11 +1,1001 @@
-mercado_valores,dinero_recaudado
-Park Electrochemical Corporation,$369.08M
-"Imprimis Pharmaceuticals, Inc.",$60.4M
-Boulevard Acquisition Corp. II,n/a
-"Anthem, Inc.",$50.34B
-"ANI Pharmaceuticals, Inc.",$527.44M
-"Apple Hospitality REIT, Inc.",$4.32B
-"1347 Property Insurance Holdings, Inc.",$49.81M
-Charles & Colvard Ltd,$19.68M
-ABB Ltd,$54.37B
-"American Assets Trust, Inc.",$1.89B
+id,city,boolean,country,currency
+1,Bellevue,true,United States,Dollar
+2,Columbus,true,United States,Dollar
+3,Cleveland,false,United States,Dollar
+4,Toledo,true,United States,Dollar
+5,Las Americas,false,Mexico,Peso
+6,Van Nuys,true,United States,Dollar
+7,Santa Cruz,true,Mexico,Peso
+8,Raleigh,true,United States,Dollar
+9,Santa Fe,true,United States,Dollar
+10,Baltimore,true,United States,Dollar
+11,Oklahoma City,false,United States,Dollar
+12,Lansing,true,United States,Dollar
+13,Denver,true,United States,Dollar
+14,Columbus,true,United States,Dollar
+15,Austin,false,United States,Dollar
+16,Kansas City,true,United States,Dollar
+17,Las Cruces,true,United States,Dollar
+18,Santa Rosa,false,Mexico,Peso
+19,Loma Alta,true,Mexico,Peso
+20,Pittsburgh,false,United States,Dollar
+21,Tyler,true,United States,Dollar
+22,Jackson,false,United States,Dollar
+23,Pasadena,false,United States,Dollar
+24,Baltimore,true,United States,Dollar
+25,Lazaro Cardenas,true,Mexico,Peso
+26,San Miguel,true,Mexico,Peso
+27,New York City,false,United States,Dollar
+28,El Refugio,true,Mexico,Peso
+29,Springfield,false,United States,Dollar
+30,Pittsburgh,false,United States,Dollar
+31,Independencia,false,Mexico,Peso
+32,Fresno,true,United States,Dollar
+33,Minneapolis,false,United States,Dollar
+34,Newton,false,United States,Dollar
+35,Phoenix,false,United States,Dollar
+36,San Antonio,false,Mexico,Peso
+37,Bronx,true,United States,Dollar
+38,Washington,true,United States,Dollar
+39,Columbus,true,United States,Dollar
+40,Fort Worth,true,United States,Dollar
+41,Colorado Springs,false,United States,Dollar
+42,San Sebastian,false,Mexico,Peso
+43,Independencia,false,Mexico,Peso
+44,El Carmen,true,Mexico,Peso
+45,Tierra y Libertad,false,Mexico,Peso
+46,Los Angeles,false,United States,Dollar
+47,Shreveport,true,United States,Dollar
+48,South Bend,true,United States,Dollar
+49,Jamaica,false,United States,Dollar
+50,Boise,true,United States,Dollar
+51,Lindavista,false,Mexico,Peso
+52,Independencia,true,Mexico,Peso
+53,Denton,false,United States,Dollar
+54,San Diego,true,United States,Dollar
+55,Carlsbad,true,United States,Dollar
+56,Santa Fe,true,United States,Dollar
+57,Vicente Guerrero,true,Mexico,Peso
+58,Lansing,false,United States,Dollar
+59,Fort Worth,true,United States,Dollar
+60,Orlando,true,United States,Dollar
+61,Dante Delgado,true,Mexico,Peso
+62,Guadalupe,true,Mexico,Peso
+63,Minneapolis,false,United States,Dollar
+64,Los Pinos,false,Mexico,Peso
+65,Wilkes Barre,true,United States,Dollar
+66,Olympia,false,United States,Dollar
+67,Buenavista,false,Mexico,Peso
+68,San Isidro,true,Mexico,Peso
+69,Cuauhtemoc,true,Mexico,Peso
+70,San Isidro,false,Mexico,Peso
+71,Providence,false,United States,Dollar
+72,Pompano Beach,true,United States,Dollar
+73,Miami,false,United States,Dollar
+74,Venustiano Carranza,false,Mexico,Peso
+75,Phoenix,true,United States,Dollar
+76,Nashville,false,United States,Dollar
+77,Baton Rouge,false,United States,Dollar
+78,El Tejocote,false,Mexico,Peso
+79,Lazaro Cardenas,false,Mexico,Peso
+80,Indianapolis,true,United States,Dollar
+81,Cheyenne,true,United States,Dollar
+82,Seattle,false,United States,Dollar
+83,Garden Grove,true,United States,Dollar
+84,Grand Rapids,true,United States,Dollar
+85,Del Valle,true,Mexico,Peso
+86,Chicago,true,United States,Dollar
+87,Nashville,false,United States,Dollar
+88,Portland,false,United States,Dollar
+89,San Isidro,true,Mexico,Peso
+90,Minneapolis,false,United States,Dollar
+91,Las Vegas,true,United States,Dollar
+92,Saint Louis,true,United States,Dollar
+93,Lansing,false,United States,Dollar
+94,Beaufort,false,United States,Dollar
+95,Chicago,false,United States,Dollar
+96,Washington,false,United States,Dollar
+97,Lazaro Cardenas,false,Mexico,Peso
+98,Round Rock,false,United States,Dollar
+99,Portland,false,United States,Dollar
+100,San Luis,false,Mexico,Peso
+101,Inglewood,false,United States,Dollar
+102,Brooklyn,true,United States,Dollar
+103,Fort Smith,false,United States,Dollar
+104,Daytona Beach,false,United States,Dollar
+105,Salt Lake City,false,United States,Dollar
+106,Seattle,false,United States,Dollar
+107,Buenavista,false,Mexico,Peso
+108,Jacksonville,false,United States,Dollar
+109,Juan N Alvarez,false,Mexico,Peso
+110,Winter Haven,true,United States,Dollar
+111,Fort Worth,true,United States,Dollar
+112,New Orleans,false,United States,Dollar
+113,Birmingham,true,United States,Dollar
+114,El Paso,true,United States,Dollar
+115,Roanoke,true,United States,Dollar
+116,Jefferson City,true,United States,Dollar
+117,Saint Paul,true,United States,Dollar
+118,Baton Rouge,false,United States,Dollar
+119,Virginia Beach,false,United States,Dollar
+120,El Limon,false,Mexico,Peso
+121,Savannah,false,United States,Dollar
+122,Alexandria,false,United States,Dollar
+123,Humble,false,United States,Dollar
+124,Richmond,true,United States,Dollar
+125,El Paso,true,United States,Dollar
+126,El Paso,true,United States,Dollar
+127,Buenos Aires,false,Mexico,Peso
+128,Boca Raton,false,United States,Dollar
+129,Tulsa,false,United States,Dollar
+130,Las Vegas,true,United States,Dollar
+131,Rochester,false,United States,Dollar
+132,Lynchburg,true,United States,Dollar
+133,Newport Beach,false,United States,Dollar
+134,Midland,true,United States,Dollar
+135,Philadelphia,true,United States,Dollar
+136,West Palm Beach,true,United States,Dollar
+137,Richmond,false,United States,Dollar
+138,Cincinnati,true,United States,Dollar
+139,Independencia,true,Mexico,Peso
+140,Phoenix,true,United States,Dollar
+141,Portland,false,United States,Dollar
+142,Colorado Springs,false,United States,Dollar
+143,Las Vegas,true,United States,Dollar
+144,Simi Valley,true,United States,Dollar
+145,Springfield,true,United States,Dollar
+146,Emiliano Zapata,true,Mexico,Peso
+147,Fort Wayne,false,United States,Dollar
+148,Albany,true,United States,Dollar
+149,Austin,true,United States,Dollar
+150,Huntington,true,United States,Dollar
+151,New Bedford,true,United States,Dollar
+152,Santa Cruz,true,Mexico,Peso
+153,Pasadena,false,United States,Dollar
+154,Omaha,false,United States,Dollar
+155,Portland,false,United States,Dollar
+156,Dallas,false,United States,Dollar
+157,Port Saint Lucie,true,United States,Dollar
+158,Oklahoma City,true,United States,Dollar
+159,Springfield,false,United States,Dollar
+160,Santa Clara,false,Mexico,Peso
+161,Miguel Hidalgo,false,Mexico,Peso
+162,Fort Myers,true,United States,Dollar
+163,San Agustin,true,Mexico,Peso
+164,Shreveport,true,United States,Dollar
+165,Vicente Guerrero,false,Mexico,Peso
+166,Tampa,true,United States,Dollar
+167,Las Vegas,true,United States,Dollar
+168,Greensboro,true,United States,Dollar
+169,Providence,true,United States,Dollar
+170,Baltimore,true,United States,Dollar
+171,Baton Rouge,false,United States,Dollar
+172,La Guadalupe,false,Mexico,Peso
+173,Dallas,true,United States,Dollar
+174,San Miguel,true,Mexico,Peso
+175,Reno,true,United States,Dollar
+176,Birmingham,false,United States,Dollar
+177,Lansing,false,United States,Dollar
+178,Lincoln,true,United States,Dollar
+179,Columbus,true,United States,Dollar
+180,Dallas,false,United States,Dollar
+181,Gatesville,false,United States,Dollar
+182,Philadelphia,false,United States,Dollar
+183,San Juan,false,Mexico,Peso
+184,Lincoln,false,United States,Dollar
+185,Los Fresnos,false,Mexico,Peso
+186,San Isidro,false,Mexico,Peso
+187,La Guadalupe,true,Mexico,Peso
+188,Greensboro,false,United States,Dollar
+189,El Paso,false,United States,Dollar
+190,New York City,false,United States,Dollar
+191,Santa Monica,false,United States,Dollar
+192,Raleigh,false,United States,Dollar
+193,Detroit,true,United States,Dollar
+194,Washington,true,United States,Dollar
+195,Buffalo,true,United States,Dollar
+196,San Marcos,true,Mexico,Peso
+197,Los Pinos,false,Mexico,Peso
+198,Seattle,true,United States,Dollar
+199,Baltimore,true,United States,Dollar
+200,Battle Creek,false,United States,Dollar
+201,Oakland,false,United States,Dollar
+202,San Isidro,true,Mexico,Peso
+203,Corpus Christi,true,United States,Dollar
+204,Fullerton,false,United States,Dollar
+205,Ejidal,false,Mexico,Peso
+206,Washington,false,United States,Dollar
+207,Chattanooga,true,United States,Dollar
+208,Pasadena,false,United States,Dollar
+209,Murfreesboro,true,United States,Dollar
+210,Seattle,true,United States,Dollar
+211,Jackson,false,United States,Dollar
+212,Alhambra,true,United States,Dollar
+213,Los Pinos,false,Mexico,Peso
+214,El Calvario,true,Mexico,Peso
+215,Clearwater,true,United States,Dollar
+216,Marietta,false,United States,Dollar
+217,Santa Rosa,true,Mexico,Peso
+218,Aurora,false,United States,Dollar
+219,Billings,false,United States,Dollar
+220,Garland,true,United States,Dollar
+221,New York City,false,United States,Dollar
+222,Olympia,true,United States,Dollar
+223,Kansas City,true,United States,Dollar
+224,Phoenix,false,United States,Dollar
+225,Cleveland,false,United States,Dollar
+226,Buenavista,false,Mexico,Peso
+227,Oklahoma City,false,United States,Dollar
+228,Phoenix,true,United States,Dollar
+229,Littleton,false,United States,Dollar
+230,Niños Heroes,true,Mexico,Peso
+231,Zephyrhills,true,United States,Dollar
+232,Pasadena,false,United States,Dollar
+233,Cuauhtemoc,false,Mexico,Peso
+234,Maple Plain,false,United States,Dollar
+235,La Victoria,false,Mexico,Peso
+236,Amarillo,false,United States,Dollar
+237,Pasadena,true,United States,Dollar
+238,Naples,false,United States,Dollar
+239,Port Washington,false,United States,Dollar
+240,Akron,true,United States,Dollar
+241,El Alamo,true,Mexico,Peso
+242,Minneapolis,false,United States,Dollar
+243,Youngstown,true,United States,Dollar
+244,Hampton,false,United States,Dollar
+245,Denver,false,United States,Dollar
+246,El Mirador,true,Mexico,Peso
+247,Memphis,false,United States,Dollar
+248,Salt Lake City,true,United States,Dollar
+249,Chicago,true,United States,Dollar
+250,Shawnee Mission,false,United States,Dollar
+251,Loma Bonita,false,Mexico,Peso
+252,Naples,true,United States,Dollar
+253,Pemex,true,Mexico,Peso
+254,North Little Rock,false,United States,Dollar
+255,Guadalupe Victoria,false,Mexico,Peso
+256,Solidaridad,false,Mexico,Peso
+257,Milwaukee,true,United States,Dollar
+258,Seattle,true,United States,Dollar
+259,Lazaro Cardenas,true,Mexico,Peso
+260,Hartford,false,United States,Dollar
+261,Linda Vista,false,Mexico,Peso
+262,Springfield,false,United States,Dollar
+263,Louisville,true,United States,Dollar
+264,San Cristobal,true,Mexico,Peso
+265,New Brunswick,false,United States,Dollar
+266,Mesa,false,United States,Dollar
+267,Tulsa,true,United States,Dollar
+268,Inglewood,true,United States,Dollar
+269,Dallas,true,United States,Dollar
+270,Flushing,false,United States,Dollar
+271,Jefferson City,true,United States,Dollar
+272,Birmingham,false,United States,Dollar
+273,Amarillo,true,United States,Dollar
+274,Gainesville,false,United States,Dollar
+275,Dallas,true,United States,Dollar
+276,El Refugio,true,Mexico,Peso
+277,Independencia,true,Mexico,Peso
+278,Springfield,false,United States,Dollar
+279,Corona,true,United States,Dollar
+280,El Calvario,false,Mexico,Peso
+281,Tampa,false,United States,Dollar
+282,Fresno,false,United States,Dollar
+283,Brooklyn,false,United States,Dollar
+284,Rochester,false,United States,Dollar
+285,Huntsville,false,United States,Dollar
+286,Charlotte,true,United States,Dollar
+287,Los Angeles,false,United States,Dollar
+288,Omaha,false,United States,Dollar
+289,Grand Junction,false,United States,Dollar
+290,Francisco I Madero,true,Mexico,Peso
+291,La Huerta,false,Mexico,Peso
+292,Gary,true,United States,Dollar
+293,Orlando,true,United States,Dollar
+294,Washington,false,United States,Dollar
+295,Washington,false,United States,Dollar
+296,Hidalgo,true,Mexico,Peso
+297,Madison,false,United States,Dollar
+298,Albany,false,United States,Dollar
+299,Minneapolis,false,United States,Dollar
+300,Loma Bonita,true,Mexico,Peso
+301,San Isidro,false,Mexico,Peso
+302,Columbus,true,United States,Dollar
+303,San Antonio,true,Mexico,Peso
+304,Houston,false,United States,Dollar
+305,Carson City,true,United States,Dollar
+306,Fovissste,true,Mexico,Peso
+307,Vista Hermosa,false,Mexico,Peso
+308,San Diego,true,Mexico,Peso
+309,Memphis,false,United States,Dollar
+310,Sacramento,false,United States,Dollar
+311,Danbury,true,United States,Dollar
+312,New Bedford,false,United States,Dollar
+313,Lubbock,false,United States,Dollar
+314,Beaverton,true,United States,Dollar
+315,Seattle,false,United States,Dollar
+316,San Jose,true,Mexico,Peso
+317,Fort Lauderdale,false,United States,Dollar
+318,Fresno,true,United States,Dollar
+319,Washington,false,United States,Dollar
+320,Antonio Toledo Corro,true,Mexico,Peso
+321,Washington,false,United States,Dollar
+322,Punta Gorda,true,United States,Dollar
+323,Fullerton,true,United States,Dollar
+324,Spartanburg,false,United States,Dollar
+325,Nueva Esperanza,false,Mexico,Peso
+326,Miguel Hidalgo,true,Mexico,Peso
+327,Tucson,true,United States,Dollar
+328,Los Angeles,true,United States,Dollar
+329,Columbia,true,United States,Dollar
+330,Miami,true,United States,Dollar
+331,New York City,true,United States,Dollar
+332,Phoenix,true,United States,Dollar
+333,High Point,false,United States,Dollar
+334,Los Angeles,false,United States,Dollar
+335,Asheville,false,United States,Dollar
+336,Linda Vista,false,Mexico,Peso
+337,Buenavista,true,Mexico,Peso
+338,San Pedro,false,Mexico,Peso
+339,West Hartford,true,United States,Dollar
+340,La Escondida,true,Mexico,Peso
+341,West Palm Beach,true,United States,Dollar
+342,Brooklyn,true,United States,Dollar
+343,Newark,false,United States,Dollar
+344,Columbus,false,United States,Dollar
+345,Las Palmas,false,Mexico,Peso
+346,Independencia,true,Mexico,Peso
+347,Knoxville,false,United States,Dollar
+348,Hidalgo,false,Mexico,Peso
+349,Dallas,true,United States,Dollar
+350,Saint Louis,false,United States,Dollar
+351,Saint Louis,false,United States,Dollar
+352,Dallas,true,United States,Dollar
+353,Parque Industrial,false,Mexico,Peso
+354,Las Vegas,false,United States,Dollar
+355,Progreso,true,Mexico,Peso
+356,Columbus,false,United States,Dollar
+357,Birmingham,false,United States,Dollar
+358,Sacramento,true,United States,Dollar
+359,Buenavista,false,Mexico,Peso
+360,Santa Cruz,false,United States,Dollar
+361,Juan N Alvarez,true,Mexico,Peso
+362,Provo,false,United States,Dollar
+363,Glendale,true,United States,Dollar
+364,Springfield,true,United States,Dollar
+365,Newark,true,United States,Dollar
+366,Seattle,true,United States,Dollar
+367,Azteca,true,Mexico,Peso
+368,Independencia,true,Mexico,Peso
+369,Toledo,true,United States,Dollar
+370,Erie,true,United States,Dollar
+371,Austin,true,United States,Dollar
+372,Miguel Aleman,true,Mexico,Peso
+373,Loma Bonita,true,Mexico,Peso
+374,Niños Heroes,true,Mexico,Peso
+375,Portland,true,United States,Dollar
+376,Tucson,false,United States,Dollar
+377,El Limon,true,Mexico,Peso
+378,Los Angeles,true,United States,Dollar
+379,Topeka,false,United States,Dollar
+380,Washington,true,United States,Dollar
+381,Memphis,false,United States,Dollar
+382,Wilkes Barre,false,United States,Dollar
+383,San Antonio,true,Mexico,Peso
+384,Kansas City,false,United States,Dollar
+385,Santa Maria,true,Mexico,Peso
+386,Lansing,false,United States,Dollar
+387,Seattle,true,United States,Dollar
+388,La Escondida,true,Mexico,Peso
+389,Whittier,true,United States,Dollar
+390,San Isidro,false,Mexico,Peso
+391,Trenton,true,United States,Dollar
+392,Frankfort,true,United States,Dollar
+393,Lazaro Cardenas,true,Mexico,Peso
+394,Fovissste,false,Mexico,Peso
+395,Young America,false,United States,Dollar
+396,Isidro Fabela,false,Mexico,Peso
+397,San Antonio,true,Mexico,Peso
+398,Santa Cruz,true,Mexico,Peso
+399,Lakeland,true,United States,Dollar
+400,Portland,false,United States,Dollar
+401,Bellevue,false,United States,Dollar
+402,Las Flores,false,Mexico,Peso
+403,Wilmington,false,United States,Dollar
+404,Roma,false,Mexico,Peso
+405,Boca Raton,false,United States,Dollar
+406,Richmond,true,United States,Dollar
+407,Racine,false,United States,Dollar
+408,Niños Heroes,true,Mexico,Peso
+409,Las Vegas,true,United States,Dollar
+410,Hidalgo,true,Mexico,Peso
+411,Muskegon,true,United States,Dollar
+412,Humble,false,United States,Dollar
+413,La Guadalupe,true,Mexico,Peso
+414,San Antonio,false,Mexico,Peso
+415,Mesa,false,United States,Dollar
+416,Las Vegas,false,United States,Dollar
+417,Charlotte,false,United States,Dollar
+418,Denver,false,United States,Dollar
+419,El Porvenir,false,Mexico,Peso
+420,Augusta,true,United States,Dollar
+421,Miami,false,United States,Dollar
+422,La Huerta,false,Mexico,Peso
+423,Florence,true,United States,Dollar
+424,Orlando,true,United States,Dollar
+425,La Paz,true,Mexico,Peso
+426,Independencia,true,Mexico,Peso
+427,Lindavista,true,Mexico,Peso
+428,El Mirador,true,Mexico,Peso
+429,Primero de Mayo,true,Mexico,Peso
+430,Fovissste,true,Mexico,Peso
+431,Dallas,false,United States,Dollar
+432,Colorado Springs,false,United States,Dollar
+433,Lazaro Cardenas,true,Mexico,Peso
+434,Mobile,false,United States,Dollar
+435,Erie,true,United States,Dollar
+436,Des Moines,true,United States,Dollar
+437,Santa Cruz,false,Mexico,Peso
+438,San Diego,false,United States,Dollar
+439,Buenavista,true,Mexico,Peso
+440,Magisterial,true,Mexico,Peso
+441,Reston,true,United States,Dollar
+442,Newport Beach,true,United States,Dollar
+443,Seattle,false,United States,Dollar
+444,Los Angeles,true,United States,Dollar
+445,Roma,true,Mexico,Peso
+446,Philadelphia,false,United States,Dollar
+447,Gary,true,United States,Dollar
+448,Richmond,true,United States,Dollar
+449,Miguel Hidalgo,true,Mexico,Peso
+450,Oakland,false,United States,Dollar
+451,Phoenix,true,United States,Dollar
+452,Pittsburgh,true,United States,Dollar
+453,New Orleans,true,United States,Dollar
+454,Fresno,true,United States,Dollar
+455,La Joya,true,Mexico,Peso
+456,Boise,false,United States,Dollar
+457,Memphis,false,United States,Dollar
+458,Pittsburgh,false,United States,Dollar
+459,San Jose,true,Mexico,Peso
+460,Richmond,false,United States,Dollar
+461,New York City,false,United States,Dollar
+462,Magisterial,false,Mexico,Peso
+463,Bethlehem,false,United States,Dollar
+464,Greensboro,false,United States,Dollar
+465,Largo,false,United States,Dollar
+466,Washington,true,United States,Dollar
+467,Rochester,false,United States,Dollar
+468,La Esperanza,false,Mexico,Peso
+469,Salt Lake City,true,United States,Dollar
+470,El Zapote,true,Mexico,Peso
+471,Great Neck,false,United States,Dollar
+472,Revolucion,true,Mexico,Peso
+473,Phoenix,false,United States,Dollar
+474,Washington,false,United States,Dollar
+475,Reforma,true,Mexico,Peso
+476,Cumming,false,United States,Dollar
+477,Merrifield,false,United States,Dollar
+478,La Palma,true,Mexico,Peso
+479,Lubbock,true,United States,Dollar
+480,Ignacio Zaragoza,false,Mexico,Peso
+481,Houston,true,United States,Dollar
+482,El Carmen,true,Mexico,Peso
+483,Charlotte,true,United States,Dollar
+484,San Francisco,false,Mexico,Peso
+485,Pensacola,true,United States,Dollar
+486,Cincinnati,false,United States,Dollar
+487,Pasadena,false,United States,Dollar
+488,Magdaleno Aguilar,true,Mexico,Peso
+489,Morelos,true,Mexico,Peso
+490,Lindavista,true,Mexico,Peso
+491,Atlanta,false,United States,Dollar
+492,Memphis,true,United States,Dollar
+493,Francisco I Madero,true,Mexico,Peso
+494,Madison,true,United States,Dollar
+495,Reno,false,United States,Dollar
+496,Chicago,false,United States,Dollar
+497,La Guadalupe,true,Mexico,Peso
+498,Stamford,true,United States,Dollar
+499,Wilkes Barre,true,United States,Dollar
+500,Guadalupe,true,Mexico,Peso
+501,Jackson,false,United States,Dollar
+502,Decatur,true,United States,Dollar
+503,Lexington,false,United States,Dollar
+504,Pemex,true,Mexico,Peso
+505,Sacramento,true,United States,Dollar
+506,La Joya,false,Mexico,Peso
+507,Honolulu,true,United States,Dollar
+508,El Mirador,false,Mexico,Peso
+509,Magisterial,false,Mexico,Peso
+510,Santa Rosa,false,United States,Dollar
+511,West Palm Beach,false,United States,Dollar
+512,New Orleans,false,United States,Dollar
+513,Lazaro Cardenas,false,Mexico,Peso
+514,Benito Juarez,false,Mexico,Peso
+515,San Pedro,false,Mexico,Peso
+516,Anahuac,false,Mexico,Peso
+517,El Arenal,false,Mexico,Peso
+518,Cleveland,false,United States,Dollar
+519,Independence,true,United States,Dollar
+520,New Haven,true,United States,Dollar
+521,Lansing,false,United States,Dollar
+522,Allentown,true,United States,Dollar
+523,Niños Heroes,false,Mexico,Peso
+524,Baton Rouge,true,United States,Dollar
+525,Luis Donaldo Colosio,true,Mexico,Peso
+526,Naples,false,United States,Dollar
+527,Cumming,true,United States,Dollar
+528,Lexington,false,United States,Dollar
+529,Fovissste,true,Mexico,Peso
+530,Independencia,false,Mexico,Peso
+531,Washington,false,United States,Dollar
+532,El Limon,false,Mexico,Peso
+533,Francisco I Madero,false,Mexico,Peso
+534,Saint Augustine,true,United States,Dollar
+535,Benito Juarez,true,Mexico,Peso
+536,Fort Wayne,true,United States,Dollar
+537,San Isidro,false,Mexico,Peso
+538,Santa Cruz,false,Mexico,Peso
+539,Sacramento,true,United States,Dollar
+540,Nashville,true,United States,Dollar
+541,Morelos,true,Mexico,Peso
+542,Guadalupe Victoria,true,Mexico,Peso
+543,Hidalgo,true,Mexico,Peso
+544,Houston,false,United States,Dollar
+545,Washington,true,United States,Dollar
+546,Buenavista,false,Mexico,Peso
+547,Miami,true,United States,Dollar
+548,Independencia,true,Mexico,Peso
+549,Tampa,false,United States,Dollar
+550,Francisco I Madero,true,Mexico,Peso
+551,La Cruz,true,Mexico,Peso
+552,Saint Paul,true,United States,Dollar
+553,Kansas City,false,United States,Dollar
+554,Clearwater,false,United States,Dollar
+555,Guadalupe Victoria,false,Mexico,Peso
+556,Buenavista,false,Mexico,Peso
+557,Chicago,false,United States,Dollar
+558,Buffalo,true,United States,Dollar
+559,Bradenton,false,United States,Dollar
+560,Santa Fe,false,United States,Dollar
+561,Minneapolis,true,United States,Dollar
+562,San Antonio,true,Mexico,Peso
+563,Los Pinos,false,Mexico,Peso
+564,Austin,false,United States,Dollar
+565,Rochester,false,United States,Dollar
+566,Washington,false,United States,Dollar
+567,San Francisco,false,Mexico,Peso
+568,Detroit,true,United States,Dollar
+569,Guadalupe,true,Mexico,Peso
+570,Sioux City,true,United States,Dollar
+571,New York City,false,United States,Dollar
+572,Lazaro Cardenas,false,Mexico,Peso
+573,High Point,true,United States,Dollar
+574,Emiliano Zapata,true,Mexico,Peso
+575,Durham,true,United States,Dollar
+576,Lazaro Cardenas,true,Mexico,Peso
+577,Denver,false,United States,Dollar
+578,San Agustin,false,Mexico,Peso
+579,La Esperanza,false,Mexico,Peso
+580,Greensboro,false,United States,Dollar
+581,Washington,true,United States,Dollar
+582,Richmond,false,United States,Dollar
+583,Staten Island,true,United States,Dollar
+584,Pittsburgh,true,United States,Dollar
+585,Hartford,false,United States,Dollar
+586,Hartford,false,United States,Dollar
+587,Pittsburgh,false,United States,Dollar
+588,Roanoke,false,United States,Dollar
+589,Francisco I Madero,true,Mexico,Peso
+590,Emiliano Zapata,true,Mexico,Peso
+591,Omaha,false,United States,Dollar
+592,Philadelphia,false,United States,Dollar
+593,Oklahoma City,false,United States,Dollar
+594,Tacoma,true,United States,Dollar
+595,Fullerton,false,United States,Dollar
+596,Indianapolis,true,United States,Dollar
+597,Amarillo,false,United States,Dollar
+598,Fort Worth,true,United States,Dollar
+599,Wilmington,true,United States,Dollar
+600,Magisterial,false,Mexico,Peso
+601,Charleston,true,United States,Dollar
+602,Minneapolis,true,United States,Dollar
+603,Tierra y Libertad,false,Mexico,Peso
+604,Atlanta,true,United States,Dollar
+605,Irvine,false,United States,Dollar
+606,Grand Rapids,true,United States,Dollar
+607,Santa Cruz,true,Mexico,Peso
+608,Nashville,true,United States,Dollar
+609,Lindavista,false,Mexico,Peso
+610,Milwaukee,false,United States,Dollar
+611,Charleston,false,United States,Dollar
+612,Virginia Beach,true,United States,Dollar
+613,Lazaro Cardenas,true,Mexico,Peso
+614,Washington,true,United States,Dollar
+615,Saint Paul,false,United States,Dollar
+616,San Jose,true,Mexico,Peso
+617,Adolfo Lopez Mateos,true,Mexico,Peso
+618,Charleston,true,United States,Dollar
+619,Atlanta,false,United States,Dollar
+620,Saint Louis,false,United States,Dollar
+621,Washington,true,United States,Dollar
+622,Fovissste,false,Mexico,Peso
+623,Rancho Nuevo,false,Mexico,Peso
+624,Cincinnati,true,United States,Dollar
+625,San Jose,true,United States,Dollar
+626,San Jose,true,United States,Dollar
+627,Washington,true,United States,Dollar
+628,Niños Heroes,false,Mexico,Peso
+629,Columbus,false,United States,Dollar
+630,Santa Maria,false,Mexico,Peso
+631,La Loma,false,Mexico,Peso
+632,Cuauhtemoc,false,Mexico,Peso
+633,Lazaro Cardenas,false,Mexico,Peso
+634,Bellavista,false,Mexico,Peso
+635,Madison,true,United States,Dollar
+636,Laurel,true,United States,Dollar
+637,Tampa,false,United States,Dollar
+638,Saint Petersburg,true,United States,Dollar
+639,New York City,true,United States,Dollar
+640,Benito Juarez,false,Mexico,Peso
+641,Rancho Nuevo,false,Mexico,Peso
+642,Houston,true,United States,Dollar
+643,Portland,true,United States,Dollar
+644,Guadalupe,true,Mexico,Peso
+645,Birmingham,false,United States,Dollar
+646,Orlando,true,United States,Dollar
+647,Clearwater,true,United States,Dollar
+648,Louisville,true,United States,Dollar
+649,Magisterial,true,Mexico,Peso
+650,Knoxville,true,United States,Dollar
+651,Niños Heroes,true,Mexico,Peso
+652,Tucson,true,United States,Dollar
+653,Louisville,false,United States,Dollar
+654,Niños Heroes,true,Mexico,Peso
+655,Camino Real,true,Mexico,Peso
+656,Newark,false,United States,Dollar
+657,Young America,true,United States,Dollar
+658,Emiliano Zapata,false,Mexico,Peso
+659,Benito Juarez,true,Mexico,Peso
+660,Wichita,false,United States,Dollar
+661,Independencia,false,Mexico,Peso
+662,Vicente Guerrero,true,Mexico,Peso
+663,Saginaw,true,United States,Dollar
+664,Francisco Sarabia,false,Mexico,Peso
+665,Odessa,false,United States,Dollar
+666,Charleston,false,United States,Dollar
+667,Progreso,false,Mexico,Peso
+668,Kansas City,true,United States,Dollar
+669,Clearwater,false,United States,Dollar
+670,Grand Rapids,false,United States,Dollar
+671,West Hartford,false,United States,Dollar
+672,Springfield,false,United States,Dollar
+673,Boca Raton,false,United States,Dollar
+674,Amarillo,true,United States,Dollar
+675,Houston,false,United States,Dollar
+676,San Isidro,true,Mexico,Peso
+677,San Jose,true,Mexico,Peso
+678,Mobile,false,United States,Dollar
+679,Houston,true,United States,Dollar
+680,Jacksonville,true,United States,Dollar
+681,Little Rock,true,United States,Dollar
+682,Battle Creek,false,United States,Dollar
+683,Naples,false,United States,Dollar
+684,Seattle,false,United States,Dollar
+685,Midland,false,United States,Dollar
+686,Buffalo,false,United States,Dollar
+687,Los Fresnos,true,Mexico,Peso
+688,Fresno,false,United States,Dollar
+689,Lancaster,false,United States,Dollar
+690,Benito Juarez,false,Mexico,Peso
+691,Jamaica,false,United States,Dollar
+692,Montgomery,false,United States,Dollar
+693,Springfield,false,United States,Dollar
+694,Independencia,true,Mexico,Peso
+695,Roma,true,Mexico,Peso
+696,Fullerton,true,United States,Dollar
+697,Jacksonville,true,United States,Dollar
+698,Santa Cruz,true,United States,Dollar
+699,Delray Beach,true,United States,Dollar
+700,Oklahoma City,true,United States,Dollar
+701,Charleston,true,United States,Dollar
+702,Simi Valley,false,United States,Dollar
+703,Ignacio Zaragoza,false,Mexico,Peso
+704,Independencia,false,Mexico,Peso
+705,Knoxville,true,United States,Dollar
+706,Sacramento,false,United States,Dollar
+707,Buenavista,true,Mexico,Peso
+708,Great Neck,false,United States,Dollar
+709,Santa Cruz,true,United States,Dollar
+710,Saint Louis,true,United States,Dollar
+711,Albany,true,United States,Dollar
+712,Houston,false,United States,Dollar
+713,Loma Bonita,false,Mexico,Peso
+714,San Miguel,false,Mexico,Peso
+715,Springfield,true,United States,Dollar
+716,Charlotte,false,United States,Dollar
+717,Johnson City,false,United States,Dollar
+718,Francisco I Madero,true,Mexico,Peso
+719,Toledo,true,United States,Dollar
+720,Minneapolis,true,United States,Dollar
+721,Tyler,false,United States,Dollar
+722,Tulsa,false,United States,Dollar
+723,Alexandria,false,United States,Dollar
+724,Chicago,true,United States,Dollar
+725,Buenos Aires,true,Mexico,Peso
+726,Miami,true,United States,Dollar
+727,Erie,true,United States,Dollar
+728,Lazaro Cardenas,true,Mexico,Peso
+729,Morelos,false,Mexico,Peso
+730,New Bedford,true,United States,Dollar
+731,New York City,true,United States,Dollar
+732,Francisco Villa,false,Mexico,Peso
+733,Amarillo,true,United States,Dollar
+734,Loma Bonita,false,Mexico,Peso
+735,Houston,false,United States,Dollar
+736,Murfreesboro,true,United States,Dollar
+737,Jackson,true,United States,Dollar
+738,Mesquite,false,United States,Dollar
+739,Englewood,true,United States,Dollar
+740,Minneapolis,false,United States,Dollar
+741,Baton Rouge,true,United States,Dollar
+742,Hidalgo,false,Mexico,Peso
+743,Las Vegas,true,United States,Dollar
+744,Washington,false,United States,Dollar
+745,Guadalupe,false,Mexico,Peso
+746,San Francisco,false,United States,Dollar
+747,Houston,true,United States,Dollar
+748,Greensboro,false,United States,Dollar
+749,Zephyrhills,true,United States,Dollar
+750,El Aguacate,false,Mexico,Peso
+751,Chicago,false,United States,Dollar
+752,Winston Salem,true,United States,Dollar
+753,Las Vegas,false,United States,Dollar
+754,Denver,true,United States,Dollar
+755,Niños Heroes,false,Mexico,Peso
+756,La Gloria,false,Mexico,Peso
+757,Emiliano Zapata,true,Mexico,Peso
+758,San Miguel,false,Mexico,Peso
+759,New York City,true,United States,Dollar
+760,Grand Forks,true,United States,Dollar
+761,Emiliano Zapata,true,Mexico,Peso
+762,Francisco I Madero,false,Mexico,Peso
+763,Zaragoza,false,Mexico,Peso
+764,Erie,false,United States,Dollar
+765,Wilkes Barre,true,United States,Dollar
+766,Salt Lake City,false,United States,Dollar
+767,San Jose,true,Mexico,Peso
+768,Vicente Guerrero,false,Mexico,Peso
+769,Annapolis,false,United States,Dollar
+770,Charlotte,false,United States,Dollar
+771,New Hyde Park,false,United States,Dollar
+772,Charleston,false,United States,Dollar
+773,Salt Lake City,true,United States,Dollar
+774,Reno,false,United States,Dollar
+775,Guadalupe,false,Mexico,Peso
+776,Minneapolis,true,United States,Dollar
+777,Garland,true,United States,Dollar
+778,Fresno,true,United States,Dollar
+779,Newport News,true,United States,Dollar
+780,Minneapolis,false,United States,Dollar
+781,Aurora,true,United States,Dollar
+782,Luis Donaldo Colosio,false,Mexico,Peso
+783,Carson City,false,United States,Dollar
+784,Buenavista,false,Mexico,Peso
+785,Santa Cruz,false,Mexico,Peso
+786,Bronx,false,United States,Dollar
+787,Springfield,false,United States,Dollar
+788,Lincoln,false,United States,Dollar
+789,La Esperanza,false,Mexico,Peso
+790,Spartanburg,false,United States,Dollar
+791,Rochester,false,United States,Dollar
+792,Chicago,true,United States,Dollar
+793,Tucson,true,United States,Dollar
+794,Colorado Springs,true,United States,Dollar
+795,Cedar Rapids,false,United States,Dollar
+796,Lubbock,false,United States,Dollar
+797,Seminole,true,United States,Dollar
+798,Hidalgo,false,Mexico,Peso
+799,La Palma,true,Mexico,Peso
+800,Austin,true,United States,Dollar
+801,Los Nogales,true,Mexico,Peso
+802,Emiliano Zapata,false,Mexico,Peso
+803,Cincinnati,true,United States,Dollar
+804,Mesa,true,United States,Dollar
+805,Phoenix,true,United States,Dollar
+806,Washington,false,United States,Dollar
+807,Scottsdale,false,United States,Dollar
+808,El Calvario,true,Mexico,Peso
+809,Tulsa,true,United States,Dollar
+810,Santa Cruz,false,Mexico,Peso
+811,Montgomery,false,United States,Dollar
+812,Boise,false,United States,Dollar
+813,San Rafael,false,Mexico,Peso
+814,Young America,false,United States,Dollar
+815,San Antonio,true,Mexico,Peso
+816,New York City,false,United States,Dollar
+817,Sacramento,true,United States,Dollar
+818,Las Americas,false,Mexico,Peso
+819,Boise,false,United States,Dollar
+820,San Francisco,false,United States,Dollar
+821,New York City,false,United States,Dollar
+822,Hicksville,false,United States,Dollar
+823,Jacksonville,false,United States,Dollar
+824,Emiliano Zapata,false,Mexico,Peso
+825,Santa Rosa,true,United States,Dollar
+826,San Isidro,true,Mexico,Peso
+827,Benito Juarez,true,Mexico,Peso
+828,Washington,true,United States,Dollar
+829,San Jose,true,United States,Dollar
+830,Humble,true,United States,Dollar
+831,South Bend,true,United States,Dollar
+832,Vista Hermosa,true,Mexico,Peso
+833,Cumming,false,United States,Dollar
+834,Lazaro Cardenas,false,Mexico,Peso
+835,Cincinnati,false,United States,Dollar
+836,Los Fresnos,false,Mexico,Peso
+837,Cincinnati,true,United States,Dollar
+838,Richmond,false,United States,Dollar
+839,San Antonio,true,Mexico,Peso
+840,Lazaro Cardenas,false,Mexico,Peso
+841,San Francisco,true,Mexico,Peso
+842,Washington,true,United States,Dollar
+843,San Jose,true,Mexico,Peso
+844,El Paraiso,true,Mexico,Peso
+845,Benito Juarez,true,Mexico,Peso
+846,Lincoln,true,United States,Dollar
+847,Oklahoma City,true,United States,Dollar
+848,Scranton,false,United States,Dollar
+849,Sterling,false,United States,Dollar
+850,Springfield,true,United States,Dollar
+851,Jamaica,false,United States,Dollar
+852,Springfield,true,United States,Dollar
+853,Palmdale,true,United States,Dollar
+854,Washington,false,United States,Dollar
+855,Grand Rapids,false,United States,Dollar
+856,Erie,true,United States,Dollar
+857,Amarillo,false,United States,Dollar
+858,Colorado Springs,false,United States,Dollar
+859,Santa Rosa,false,Mexico,Peso
+860,Allentown,false,United States,Dollar
+861,Raleigh,true,United States,Dollar
+862,Lazaro Cardenas,true,Mexico,Peso
+863,Sacramento,true,United States,Dollar
+864,Tampa,true,United States,Dollar
+865,Washington,true,United States,Dollar
+866,La Esperanza,true,Mexico,Peso
+867,Paterson,false,United States,Dollar
+868,Cincinnati,false,United States,Dollar
+869,San Diego,true,United States,Dollar
+870,Kingsport,true,United States,Dollar
+871,Wichita,true,United States,Dollar
+872,Minneapolis,true,United States,Dollar
+873,Ejidal,true,Mexico,Peso
+874,Cincinnati,true,United States,Dollar
+875,Katy,true,United States,Dollar
+876,Guadalupe Victoria,true,Mexico,Peso
+877,Phoenix,false,United States,Dollar
+878,Lazaro Cardenas,true,Mexico,Peso
+879,Memphis,false,United States,Dollar
+880,Emiliano Zapata,true,Mexico,Peso
+881,Sacramento,false,United States,Dollar
+882,Stamford,false,United States,Dollar
+883,El Paso,false,United States,Dollar
+884,Baltimore,true,United States,Dollar
+885,San Jose,false,United States,Dollar
+886,Tampa,true,United States,Dollar
+887,Spring,false,United States,Dollar
+888,Minneapolis,false,United States,Dollar
+889,Cuauhtemoc,true,Mexico,Peso
+890,Phoenix,false,United States,Dollar
+891,Newark,true,United States,Dollar
+892,Fullerton,true,United States,Dollar
+893,Austin,true,United States,Dollar
+894,Los Angeles,false,United States,Dollar
+895,El Limon,true,Mexico,Peso
+896,Vancouver,false,United States,Dollar
+897,Erie,false,United States,Dollar
+898,El Paso,false,United States,Dollar
+899,Los Angeles,false,United States,Dollar
+900,Petrolera,false,Mexico,Peso
+901,Detroit,false,United States,Dollar
+902,Washington,false,United States,Dollar
+903,Huntington Beach,true,United States,Dollar
+904,Santa Cruz,true,Mexico,Peso
+905,Sacramento,false,United States,Dollar
+906,Cincinnati,false,United States,Dollar
+907,Las Flores,true,Mexico,Peso
+908,Phoenix,false,United States,Dollar
+909,Ejidal,false,Mexico,Peso
+910,Azteca,true,Mexico,Peso
+911,Detroit,false,United States,Dollar
+912,Dallas,false,United States,Dollar
+913,Savannah,true,United States,Dollar
+914,Los Pinos,true,Mexico,Peso
+915,Milwaukee,false,United States,Dollar
+916,New York City,true,United States,Dollar
+917,Washington,true,United States,Dollar
+918,El Porvenir,false,Mexico,Peso
+919,Bronx,false,United States,Dollar
+920,La Guadalupe,true,Mexico,Peso
+921,San Diego,false,United States,Dollar
+922,Saint Cloud,true,United States,Dollar
+923,Omaha,true,United States,Dollar
+924,Houston,true,United States,Dollar
+925,Phoenix,true,United States,Dollar
+926,Mesa,true,United States,Dollar
+927,Lansing,false,United States,Dollar
+928,San Miguel,true,Mexico,Peso
+929,Washington,false,United States,Dollar
+930,Grand Rapids,true,United States,Dollar
+931,Whittier,true,United States,Dollar
+932,La Esperanza,true,Mexico,Peso
+933,Wilmington,true,United States,Dollar
+934,Las Flores,false,Mexico,Peso
+935,Washington,false,United States,Dollar
+936,Las Americas,true,Mexico,Peso
+937,San Marcos,true,Mexico,Peso
+938,Guadalupe,false,Mexico,Peso
+939,Vicente Guerrero,false,Mexico,Peso
+940,Shawnee Mission,true,United States,Dollar
+941,Denver,true,United States,Dollar
+942,Houston,false,United States,Dollar
+943,Sacramento,false,United States,Dollar
+944,New York City,false,United States,Dollar
+945,Washington,false,United States,Dollar
+946,Newark,true,United States,Dollar
+947,Hidalgo,false,Mexico,Peso
+948,Saint Louis,false,United States,Dollar
+949,Santa Fe,true,Mexico,Peso
+950,Los Angeles,false,United States,Dollar
+951,Birmingham,false,United States,Dollar
+952,Provo,true,United States,Dollar
+953,Independencia,false,Mexico,Peso
+954,Vancouver,false,United States,Dollar
+955,Aurora,true,United States,Dollar
+956,New Orleans,true,United States,Dollar
+957,Cincinnati,false,United States,Dollar
+958,Beaufort,false,United States,Dollar
+959,Ejidal,true,Mexico,Peso
+960,La Escondida,false,Mexico,Peso
+961,Dallas,true,United States,Dollar
+962,Saint Louis,true,United States,Dollar
+963,Oklahoma City,true,United States,Dollar
+964,Benito Juarez,true,Mexico,Peso
+965,Honolulu,false,United States,Dollar
+966,Grand Rapids,true,United States,Dollar
+967,Newark,true,United States,Dollar
+968,Washington,false,United States,Dollar
+969,Chicago,true,United States,Dollar
+970,Santa Rosa,true,Mexico,Peso
+971,Fort Worth,true,United States,Dollar
+972,Revolucion Verde,false,Mexico,Peso
+973,Savannah,false,United States,Dollar
+974,Los Pinos,true,Mexico,Peso
+975,Knoxville,true,United States,Dollar
+976,Mountain View,false,United States,Dollar
+977,Baton Rouge,false,United States,Dollar
+978,Des Moines,true,United States,Dollar
+979,Niños Heroes,false,Mexico,Peso
+980,San Pedro,false,Mexico,Peso
+981,Emiliano Zapata,true,Mexico,Peso
+982,La Soledad,false,Mexico,Peso
+983,Santa Cecilia,true,Mexico,Peso
+984,Pompano Beach,false,United States,Dollar
+985,El Paso,true,United States,Dollar
+986,Washington,false,United States,Dollar
+987,Seattle,false,United States,Dollar
+988,New York City,false,United States,Dollar
+989,San Antonio,false,Mexico,Peso
+990,Reston,false,United States,Dollar
+991,Atlanta,true,United States,Dollar
+992,Newark,false,United States,Dollar
+993,Cuauhtemoc,false,Mexico,Peso
+994,Austin,true,United States,Dollar
+995,Cedar Rapids,true,United States,Dollar
+996,Hagerstown,true,United States,Dollar
+997,Guadalupe Victoria,true,Mexico,Peso
+998,Naperville,true,United States,Dollar
+999,Waco,false,United States,Dollar
+1000,Jacksonville,false,United States,Dollar
